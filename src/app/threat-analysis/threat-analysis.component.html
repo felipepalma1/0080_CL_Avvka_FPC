@@ -1,0 +1,107 @@
+<mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        Threat Analysis
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <ul>
+            <li>Static security assessments of applications that are Critical and High Risk</li>
+            <li>Application Security Review of Static Analysis findings in applications, remediation guidance and scoring</li>
+            <li>[SDLC] Consulting on application security controls required to develop applications in a secure way must be assessed and evaluated by application security</li>
+            <li>Application security tooling</li>
+            <li>Maintaining application security centric visibility into applications developed by [REDACTED] and their security posture</li>
+            <li>[SDLC] Appropiate Integration with all stages of development to ensure [REDACTED] systems are built securely and developed with respect to the level of maturity reached by the Enterprise</li>
+            
+            <li>Information Security Compliance Group</li>
+            <li>Global Security Services and Support</li>
+            <li>Internal Clients</li>
+            <li>Mission: Enable the business to operate and grow while reducing risk through delivery of strategic security direction, guidance and consumable technologies</li>
+            <li>Vision: Establish a consumable catalog of security capabilites based upon enterprise risk-priotitized needs. Bake-In continous metrics and feedback mechanisms into delivered capabilities so that performanceis known monitored and improved. Be customer centric in how we respond to the business and technology teams, providing a best-in-industry service. Enable the greater security organization to more rapidly and
+            consistently respond to the needs of the corporation and its stakeholders</li>
+            
+        </ul>
+
+        <h2>STRIDE Threat Model</h2>
+        <p>STRIDE is a mnemonic to help discover threats in software and systems. STRIDE stands for Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege.</p>
+    
+    <p>Each element of STRIDE helps the threat modeler to focus on potential threats to the entity being modelled to help create more complete threat models and attempt to reduce the likelihood of missing threats. It is possible that there will be no threats discovered for any element of STRIDE, but every element should be considered. For example a given flow may not have Tamper related threat because the transferred by the flow is encrypted with Barricade, and the connection the flow uses is TLS 1.2 which provides encryption for the flow</p>
+    
+    <ul>
+      <li>Spoofing: Pretending to be something or someone you're not</li>
+      <li>Tampering: Modifying something you're not supposed to modify. It can include packets on the wire or wireless, data on disk, or data in memory</li>
+      <li>Repudiation: Claiming you didn't do something (regardless of whether you did or not)</li>
+      <li>Information Disclosure: Exposing information to people wjo are not authorized to see it</li>
+      <li>Denial of Service: Attacks designed to prevent a system from providing service, including by crashing it, making it  unusably slow or filling all its storage</li>
+      <li>Elevation of Privilege: A program or user is able to perform actions that theydo not have authority to perform</li>
+    </ul>
+    
+    <h2>Basic Threat Modeling Process</h2>
+    <p>The threat modeling process is an iterative process that begins with the system conceptualization and high level design (Business Case level), iterating through the lower level design, and then implementation. At each iteration, refinement of design the Data Flow Diagram sould should be updated to align with reality and the threat modeling exercise performed again to ensure that the threat model remains accurate, any new threats are identified and</p>
+    
+    <h2>Threat Modeling</h2>
+    <b>Process</b>
+    <br>
+    <b>Catalogue</b>
+    <br>
+    <b>Help to Find</b>
+    <br>
+    <b>Hints</b>
+    <br>
+    <b>Guidance Documentation</b>
+    <br>
+    <b>Business Case Expectations</b>
+    <br>
+    <b>How to</b>
+    <br>
+    
+    <ol>
+      <li>What are you working on</li>
+      <li>What can go wrong</li>
+      <li>What are we going to do about it</li>
+      <li>Did we do a good job</li>
+    </ol>
+    
+    <br>
+    
+    <a href="https://wiki.sei.cmu.edu/confluence/display/java/SEI+CERT+Oracle+Coding+Standard+for+Java">SEI CERT Oracle Coding Standard for Java</a>
+    <br>
+    <a href="https://github.com/analysis-tools-dev/static-analysis">Static Analysis Tools</a>
+    <br>
+    <a href="https://ranakhalil.teachable.com/courses/enrolled/1491236">Rana Khalil Teachable</a>
+    <br>
+    <a href="https://academy.tcm-sec.com/courses/1792341/lectures/40485108">tcm-sec Academy</a>
+    <br>    
+    <h2>Domain-Driven Design Concepts and Terms</h2>
+    <b>Problem Domain</b>
+    <p>The specific problem the software you are working on is trying to solve</p>
+    
+    <b>Core Domain</b>
+    <p>The key differentiator for the customer business; something they must do well and cannot outsource</p>
+    
+    
+    <b>Sub-Domains</b>
+    <p>Separate applications or features for which our software must support or interact</p>
+    
+    <b>Bounded Context</b>
+    <p>A specific responsability with explicit boundaries that separate it from other parts of the system</p>
+    
+    <b>Context Mapping</b>
+    <p>The process of identifying bounded context and their relationships to one another</p>
+    
+    <b>Shared Kernel</b>
+    <p>Part of the model shared by two or more teams, who agree not to change it without collaboration</p>
+    
+    <b>Ubiquitous Language</b>
+    <p>A language using terms from the domain model that programmers and domain experts use to discuss the system</p>
+    
+
+    </mat-card-content>
+
+
+    
+    <!--<mat-card-actions>
+      <button mat-raised-button color="accent">Click me!</button>
+    </mat-card-actions>-->
+</mat-card>
+
